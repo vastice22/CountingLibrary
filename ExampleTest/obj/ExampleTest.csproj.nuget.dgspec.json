@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/xyz/Projects/TechnoBrain/CountingLibrary/ExampleTest/ExampleTest.csproj": {}
+  },
+  "projects": {
+    "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example01/Example01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example01/Example01.csproj",
+        "projectName": "Example01",
+        "projectPath": "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example01/Example01.csproj",
+        "packagesPath": "/home/xyz/.nuget/packages/",
+        "outputPath": "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example01/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/xyz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/xyz/Projects/TechnoBrain/CountingLibrary/ExampleTest/ExampleTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/xyz/Projects/TechnoBrain/CountingLibrary/ExampleTest/ExampleTest.csproj",
+        "projectName": "ExampleTest",
+        "projectPath": "/home/xyz/Projects/TechnoBrain/CountingLibrary/ExampleTest/ExampleTest.csproj",
+        "packagesPath": "/home/xyz/.nuget/packages/",
+        "outputPath": "/home/xyz/Projects/TechnoBrain/CountingLibrary/ExampleTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/xyz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example01/Example01.csproj": {
+                "projectPath": "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example01/Example01.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

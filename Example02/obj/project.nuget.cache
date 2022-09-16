@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h0sanQns9lKlVmaDt1YA6c5l1hEjcjHiARbE1SRUJC5EvUam7T41O574xyvM8O766JJNIs+DSjxRyG/csCjPbg==",
+  "success": true,
+  "projectFilePath": "/home/xyz/Projects/TechnoBrain/CountingLibrary/Example02/Example02.csproj",
+  "expectedPackageFiles": [
+    "/home/xyz/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/xyz/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/xyz/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
