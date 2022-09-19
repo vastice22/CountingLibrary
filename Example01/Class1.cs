@@ -13,7 +13,7 @@ namespace UtilityLibraries;
     public static string Towards(this BigInteger  number)
     {
         
-        BigInteger limit = 10000000000000000;
+        BigInteger limit = 1000000000000000000;
         
         int number_size = number.ToString().Length;
         BigInteger hundreds,mut_index= 0;
@@ -53,8 +53,16 @@ namespace UtilityLibraries;
             }
 
             if(hundreds > 99){
-                // 44545450004545
-                Console.WriteLine(hundreds);
+                
+                output += first_twenty[(int)hundreds / 100] + " hundred ";
+                add_check = true;
+            }
+            hundreds = hundreds % 100;
+
+            if(hundreds > 0 && hundreds < 20){
+                if (add_check == true){
+                    output+="and ";
+                }
                 output += first_twenty[(int)hundreds] + " ";
             }
             else if( hundreds % 10 == 0 && hundreds != 0 ){
@@ -81,26 +89,14 @@ namespace UtilityLibraries;
             } 
 
         }
-        // if(output.IndexOf(" ,") != -1){
-        //     string[] output1 = output.Split(",");
-        //     output1[output1.Length -2 ] = " and" + output1[output1.Length-2];
-        //     output =  string.Join(",",  output1[0..(output1.Length-1)]);
-        // }
-        //  string[] lastPart = output.Split(",");
+        if(output.IndexOf(" ,") != -1){
+            string[] output1 = output.Split(",");
+            output1[output1.Length -2 ] = " and" + output1[output1.Length-2];
+            output =  string.Join(",",  output1[0..(output1.Length-1)]);
+        }
 
-
-        // try{
-        //     if(lastPart[lastPart.Length - 1].IndexOf("and") == -1){
-        //         lastPart[lastPart.Length-1] = " and" + lastPart[lastPart.Length - 1];
-        //         output = string.Join(",", lastPart);
-        //     }
-        // }catch(Exception){
-        //     //do something
-        // }
         
- 
-        
-        return output;//.Trim().Substring(0,output.Length-1);
+        return output.Trim().Substring(0,output.Length-1);
     }
 
 }

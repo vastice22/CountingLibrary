@@ -36,12 +36,19 @@ public class UnitTest1
         
     }
     [TestMethod]
-    public void Test(){
+    public void Test545445454545(){
         string number = "545445454545";
         string statement = "five hundred and forty five billion, four hundred and forty five million, four hundred and fifty four thousand, five hundred and forty five";
         BigInteger _number = BigInteger.Parse(number);
         string result = _number.Towards();
         Assert.AreEqual(statement,result);
     }
-    
+    [TestMethod]
+    public void Test100(){
+        string number = "100";
+        string statement = "one hundred";
+        BigInteger _number = BigInteger.Parse(number);
+        string result = _number.Towards();
+        Assert.AreEqual(statement,result);
+    }
 }

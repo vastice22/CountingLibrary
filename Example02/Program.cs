@@ -19,10 +19,10 @@ class Program
                     
                         BigInteger userInput = BigInteger.Parse(input);//(input.IndexOf(",") > 0 ? input.Replace(",","") : input) ;
                         Console.WriteLine("Number too big \n" + UInt64.MaxValue);
-                        // if ( userInput > MAXVALUEBIG + 1){
+                        if ( userInput > MAXVALUEBIG + 1){
                             
-                        //     continue;
-                        // }
+                            continue;
+                        }
                         Console.WriteLine(userInput.Towards());
 
 
